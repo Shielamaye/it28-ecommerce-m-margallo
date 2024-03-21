@@ -6,6 +6,30 @@
     <title>Online Shop</title>
     <style>
         /* Some basic styling for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
         .product {
             border: 1px solid #ccc;
             padding: 10px;
@@ -17,57 +41,73 @@
             width: 100%;
             height: auto;
         }
-        .button{
-        background-color: rgb(20, 165, 170);
-       
+        .button {
+            background-color: rgb(20, 165, 170);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
         }
     </style>
 </head> 
 <body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="logistics.html">Logistics</a>
+        <a href="report.html">Report</a>
+        <a href="customer.html">Customer Service</a>
+    </div>
+
     <div class="container">
-    <h1 style="text-align: center;">SHIELA'S FOOD HUB</h1>
-    <div class="product">
-        <img src="product_image.jpg" alt="Product Image">
-        <h2>Kwek Kwek</h2>
-        <p>Yummy pas imog uyab</p>
-        <p>Price: $15.00</p>
-        <button class="button">Add to Cart</button>
-    </div>
-    <div class="product">
-        <img src="product_image.jpg" alt="Product Image">
-        <h2>Bananaque</h2>
-        <p>Bananaque para sa wala ge iloveyoutoo</p>
-        <p>Price: $10.00</p>
-        <button class="button">Add to Cart</button>
-    </div>
-    <div class="product">
-        <img src="product_image.jpg" alt="Product Image">
-        <h2>Hotdog</h2>
-        <p>Pula pas iyang lips</p>
-        <p>Price: $20</p>
-        <button class="button">Add to Cart</button>
-    </div>
-    <div class="product">
-        <img src="product_image.jpg" alt="Product Image">
-        <h2>Kikiam</h2>
-        <p>Tilawi lang aysig daghan istorya</p>
-        <p>Price: $15.00</p>
-        <button class="button">Add to Cart</button>
-    </div>
-    <div class="product">
-        <img src="product_image.jpg" alt="Product Image">
-        <h2>Fish Ball</h2>
-        <p>Yummy PAS IMONG UYAB</p>
-        <p>Price: $10.00</p>
-        <button class="button">Add to Cart</button>
-    </div>
-    <div class="product">
-        <img src="product_image.jpg" alt="Product Image">
-        <h2>Sweet Corn</h2>
-        <p>Sweet pas inyung convo</p>
-        <p>Price: $20.00</p>
-        <button class="button">Add to Cart</button>
-    </div>
+        <h1 style="text-align: center;">SHIELA'S FOOD HUB</h1>
+        <div class="product">
+            <img src="product_image.jpg" alt="Product Image">
+            <h2>Kwek Kwek</h2>
+            <p>Yummy pas imog uyab</p>
+            <p>Price: $15.00</p>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product_image.jpg" alt="Product Image">
+            <h2>Bananaque</h2>
+            <p>Bananaque para sa wala ge iloveyoutoo</p>
+            <p>Price: $10.00</p>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product_image.jpg" alt="Product Image">
+            <h2>Hotdog</h2>
+            <p>Pula pas iyang lips</p>
+            <p>Price: $20</p>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product_image.jpg" alt="Product Image">
+            <h2>Kikiam</h2>
+            <p>Tilawi lang aysig daghan istorya</p>
+            <p>Price: $15.00</p>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product_image.jpg" alt="Product Image">
+            <h2>Fish Ball</h2>
+            <p>Yummy PAS IMONG UYAB</p>
+            <p>Price: $10.00</p>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product_image.jpg" alt="Product Image">
+            <h2>Sweet Corn</h2>
+            <p>Sweet pas inyung convo</p>
+            <p>Price: $20.00</p>
+            <button class="button">Add to Cart</button>
+        </div>
     </div>
 </body>
 </html>
