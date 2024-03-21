@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Timeline</title>
+    <style>
+        /* Basic styling for demonstration purposes */
+        .timeline {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .timeline li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        .timeline li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            background-color: #ccc;
+            border-radius: 50%;
+        }
+        .timeline li.shipped::before {
+            background-color: green;
+        }
+        .timeline li.delivered::before {
+            background-color: blue;
+        }
+        .timeline li.failed::before {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul class="timeline">
+        <li class="shipped">Order Placed</li>
+        <li class="shipped">Processing</li>
+        <li class="shipped">Shipped</li>
+        <li class="delivered">Out for Delivery</li>
+        <li class="delivered">Delivered</li>
+    </ul>
+</body>
+</html>
+
